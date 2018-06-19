@@ -1,5 +1,3 @@
-[![Downloads](https://img.shields.io/npm/dm/react-native-country-picker-modal.svg)](https://www.npmjs.com/package/react-native-country-picker-modal)
-
 [**Support me with a Follow**](https://github.com/amestsantim/followers)
 
 # react-native-m49-area-picker-modal
