@@ -1,26 +1,12 @@
-[![exponent
-support](https://img.shields.io/badge/exponent-ios%20%7C%20android-blue.svg?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAYAAACB4MgqAAAAAXNSR0IArs4c6QAAA2VJREFUWAnFmTtoVEEYhbOJL0hIRDBqZYQEEUQsRBHxAYr4wM5CBKuAsRJUFAQjaKN2WpginaIi2GgjaBQtLKKFBh%2BFKIaIjwgi8a3xsX7%2FurvuvTs788%2FMXRw4ZGf%2B859zdrl7d%2BamoSGjkc%2Fnp4KT4Bn4Bn6BcfAanAddGVllJ0OoZnAf2MZbip3ZuWagRKB%2BW%2BKK2m1eT8jAMl6CIKsqgmle7ol3jVQgZRNwXSLpN%2FOehRmR1nHtBOhJp1LO%2B%2BOcI7oJ2AreKIOmaXLHWRBhH96K8ZF0Gs%2F51XD3wE4CzgZfPYOa6OsDI4S1keCMKUXA2kN6msJSeHZhtAj8DghZq2W7Z4QwOu43ayUIXJctQbNvmkafBgw2wV%2Fp06PgzoSzV8FLUHKJmWVCaLkWH4B5Flpo6TONnblcblQr4POJdyOqDX0WruwGDyiDyKVySMnV0%2BQaBK%2BAZgxBmlxS57X2DvQTrvaDKcnb%2FyLYCzRD9uHzK9WYt4HnmmY4lyp7o14j1g4%2BKo33mczoXa3sF9pyk4b3GkJyqtGMO5Bq%2FphQ0%2B7ZB71Dphsw6wI%2FgGt8h5C4RAxasil74RIq1jen%2B73miFxQGh3UCKO1Uan3GF7YSYnGxUoT2W9M1AQXDtxzSt0dWs0ED%2FEbCgPZsyxNNDom8OXL%2Fk6h7b8VQHSDQlgofY6cxjJ93Ur9XqOAaRHBRqA5R76E12rScK3RlwOazdoHeNNdeoU6xG1AM6K%2B%2BRjMBXI3co3jzuAoTALDLiXql51iCgI6hxVe8uY6rHIQdiqEvsCZYxVSFtGZAp4qPE%2FXlKS5BWhO7ftrigQU8FyrCC5PBcw%2FcBQ0G6lH8NT3bO37QFMeirrGxSo9OqaBMVcn9axPP4Us6M4C8oTLNZYkwsM%2B6uqgfirRlPEEfc33a6BsS4P8kn0CtiG%2FdO3lpjq8QF%2BeQ961hSjWVhTsmRxTkHvqkLVKkhyyP5Ivom1cKwV%2FYmNRGwTqQ3VVGs8FvPoceaTcJru16xainAMXenpH0fGTf8mMWjKNiYGc8v9%2B9Ga7EzwyGDKX6rOKnwTbbVEvXypymJUtZHqMsNBiEahrCe8r6UDM5TT27%2FE0kzUgveFZV9dkDnHydID0IX1XVRukZWAA3ANbqwj%2FYaGY6RZ%2F5QaxpTLCH1MMfbtE9CyFAAAAAElFTkSuQmCC&link=https%3A%2F%2Fgetexponent.com)](https://getexponent.com/@xcarpentier/react-native-country-picker-demo)
-[![NPM version](https://badge.fury.io/js/react-native-country-picker-modal.svg)](http://badge.fury.io/js/react-native-country-picker-modal)
-[![Downloads](https://img.shields.io/npm/dm/react-native-country-picker-modal.svg)](https://www.npmjs.com/package/react-native-country-picker-modal)
+[**Support me with a Follow**](https://github.com/amestsantim/followers)
 
-[**Support me with a Follow**](https://github.com/xcarpentier/followers)
+# react-native-m49-area-picker-modal
 
-# react-native-country-picker-modal
+The area picker for apps that need to use the UN defined areas in their apps.
 
-The best Country Picker for React Native.
-
-[**Demo on Exponent**](https://getexponent.com/@xcarpentier/react-native-country-picker-demo)
-
-| iOS | Android |
-| --------|---------|
-|![](http://i.giphy.com/l2SpOUptMAEXW2jqU.gif)|![](http://i.giphy.com/26ufd30pDhSeEbIwE.gif)|
 ## Installation
 ```bash
-$ npm i react-native-country-picker-modal --save
-```
-or
-```bash
-$ yarn add react-native-country-picker-modal
+$ yarn add react-native-m49-area-picker-modal
 ```
 ## Basic Usage
 - Install `react-native` first
@@ -135,8 +121,8 @@ AppRegistry.registerComponent('example', () => Example);
 
 | Key | Type | Default | Description |
 | --- | --- | --- | --- |
-| cca2 | string | \*required | code ISO 3166-1 alpha-2 (ie. FR, US, etc.)|
-| translation | string | 'eng' | The language display for the name of the country (deu, fra, hrv, ita, jpn, nld, por, rus, spa, svk,  fin, zho, cym) |
+| m49 | string | \*required | code ISO 3166-1 alpha-2 (ie. FR, US, etc.)|
+| translation | string | 'eng' | The language display for the name of the country (en, fr) |
 | onChange | function | \*required | The handler when a country is selected |
 | onClose | function | \*required | The handler when the close button is clicked |
 | countryList | array | See [cca2.json](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/data/cca2.json)| List of custom CCA2 countries to render in the list.  Use getAllCountries to filter what you need if you want to pass in a custom list |
@@ -157,18 +143,12 @@ YES
 ### Is the data that is populated inside the list saved offline once I install your package?
 YES : It used the world-countries package and image is stored into json and base64.
 
-## Tiers lib using this lib
-https://github.com/joinspontaneous/react-native-phone-verification
+## Apps using this component
 
-## Contribution
-
-- [@xcapentier](mailto:contact@xaviercarpentier.com) The main author.
 
 ## Questions
 
-Feel free to [contact me](mailto:contact@xaviercarpentier.com) or [create an issue](https://github.com/xcarpentier/react-native-country-picker/issues/new)
-
-> made with ♥
+Feel free to [contact me](mailto:nahomt@amestsantim.com) or [create an issue](https://github.com/amestsantim/react-native-m49-area-picker-modal/issues/new)
 
 ## Licence
-[MIT](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/LICENSE.md)
+[MIT](https://github.com/amestsantim/react-native-m49-area-picker-modal/blob/master/LICENSE.md)
