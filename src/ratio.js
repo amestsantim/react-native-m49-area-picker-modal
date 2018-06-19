@@ -1,11 +1,15 @@
-// eslint-disable-next-line
-import React from 'react-native';
+import React from 'react'
+import { Text } from 'react-native'
+import nodeEmoji from 'node-emoji'
+import PropTypes from 'prop-types'
 
-const { height, width } = React.Dimensions.get('window');
+function Emoji({ name }) {
+  const emoji = nodeEmoji.get(name)
+  return <Text allowFontScaling={false}>{emoji}</Text>
+}
 
-// Remove the status bar height since the modal view does not cover this area
-const ANDROID_MINUS_HEIGHT = 24;
-const getHeight = () => (React.Platform.OS === 'android' ? height - ANDROID_MINUS_HEIGHT : height);
-export const getWidthPercent = (percentage) => (width * percentage) / 100;
-export const getHeightPercent = (percentage) => (getHeight() * percentage) / 100;
-export const getPercent = (percentage) => (((getHeight() + width) / 2) * percentage) / 100;
+Emoji.propTypes = {
+  name: PropTypes.string.isRequired
+}
+
+export default Emoji

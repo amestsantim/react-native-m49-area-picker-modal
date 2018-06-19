@@ -1,5 +1,5 @@
 {
-  "name": "react-native-m49-area-picker-modal",
+  "name": "react-native-un-code-area-picker-modal",
   "version": "1.0.0",
   "description": "M49 Area Picker",
   "main": "src/CountryPicker.js",
@@ -29,11 +29,11 @@
   "homepage": "https://github.com/amestsantim/react-native-m49-area-picker-modal#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-preset-react-native-stage-0": "1.0.1",
     "fuse.js": "2.6.2",
-    "lodash": "^4.17.10",
+    "lodash": "4.12.0",
     "node-emoji": "1.8.1",
-    "react-native-country-picker-modal-fix": "^0.3.0",
+    "prop-types": "15.6.0",
+    "react-native-safe-area-view": "^0.7.0",
     "world-countries": "1.8.0"
   },
   "devDependencies": {
@@ -50,9 +50,9 @@
     "eslint-plugin-react": "^6.0.0",
     "eslint-plugin-react-native": "2.0.0",
     "jest": "^20.0.4",
-    "react": "16.0.0-alpha.12",
-    "react-native": "0.47.2",
-    "react-test-renderer": "16.0.0-alpha.12"
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-test-renderer": "16.0.0"
   },
   "jest": {
     "preset": "react-native"
