@@ -1,41 +1,27 @@
+// @flow
+import React from 'react'
 // eslint-disable-next-line
-import React from 'react';
-// eslint-disable-next-line
-import {
-  Image,
-  StyleSheet,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { Image, TouchableOpacity, View } from 'react-native'
+import PropTypes from 'prop-types'
 
-import { getWidthPercent } from './ratio';
+const CloseButton = props => {
+  let closeImage = require('./ios7-close-empty.png')
 
-const styles = StyleSheet.create({
-  closeButton: {
-    height: 48,
-    width: getWidthPercent(15),
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  closeButtonImage: {
-    height: 35,
-    width: 35,
-    resizeMode: 'contain',
-  },
-});
+  if (props.image) closeImage = props.image
 
-const CloseButton = (props) => (
-  <View style={styles.closeButton}>
-    <TouchableOpacity
-      {...props}
-    >
-      <Image
-        source={require('./ios7-close-empty.png')}
-        style={styles.closeButtonImage}
-      />
-    </TouchableOpacity>
-  </View>
-);
+  return (
+    <View style={props.styles[0]}>
+      <TouchableOpacity onPress={props.onPress}>
+        <Image source={closeImage} style={props.styles[1]} />
+      </TouchableOpacity>
+    </View>
+  )
+}
 
+CloseButton.propTypes = {
+  styles: PropTypes.array,
+  onPress: PropTypes.func,
+  image: PropTypes.any
+}
 
-export default CloseButton;
+export default CloseButton

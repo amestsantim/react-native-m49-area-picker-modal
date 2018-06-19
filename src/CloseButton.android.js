@@ -1,49 +1,36 @@
 // eslint-disable-next-line
-import React from 'react';
+import React from 'react'
 // eslint-disable-next-line
-import {
-  Image,
-  StyleSheet,
-  TouchableNativeFeedback,
-  View,
-  Platform,
-} from 'react-native';
+import { Image, TouchableNativeFeedback, View, Platform } from 'react-native'
+import PropTypes from 'prop-types'
 
-import { getWidthPercent } from './ratio';
+const CloseButton = props => {
+  let closeImage = require('./android-close.png')
 
-const styles = StyleSheet.create({
-  closeButton: {
-    height: 48,
-    width: getWidthPercent(15),
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  closeButtonImage: {
-    height: 24,
-    width: 24,
-    resizeMode: 'contain',
-  },
-});
+  if (props.image) closeImage = props.image
 
-const CloseButton = (props) => (
-  <View style={styles.closeButton}>
-    <TouchableNativeFeedback
-      background={
-        Platform.Version < 21 ?
-        TouchableNativeFeedback.SelectableBackground()
-        :
-        TouchableNativeFeedback.SelectableBackgroundBorderless()
-      }
-      {...props}
-    >
-      <View>
-        <Image
-          source={require('./android-close.png')}
-          style={styles.closeButtonImage}
-        />
-      </View>
-    </TouchableNativeFeedback>
-  </View>
-);
+  return (
+    <View style={props.styles[0]}>
+      <TouchableNativeFeedback
+        background={
+          Platform.Version < 21
+            ? TouchableNativeFeedback.SelectableBackground()
+            : TouchableNativeFeedback.SelectableBackgroundBorderless()
+        }
+        onPress={props.onPress}
+      >
+        <View>
+          <Image source={closeImage} style={props.styles[1]} />
+        </View>
+      </TouchableNativeFeedback>
+    </View>
+  )
+}
 
-export default CloseButton;
+CloseButton.propTypes = {
+  styles: PropTypes.array,
+  onPress: PropTypes.func,
+  image: PropTypes.any
+}
+
+export default CloseButton

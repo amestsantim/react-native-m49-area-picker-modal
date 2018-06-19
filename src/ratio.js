@@ -1,15 +1,17 @@
-import React from 'react'
-import { Text } from 'react-native'
-import nodeEmoji from 'node-emoji'
-import PropTypes from 'prop-types'
+import { Dimensions, Platform } from 'react-native'
 
-function Emoji({ name }) {
-  const emoji = nodeEmoji.get(name)
-  return <Text allowFontScaling={false}>{emoji}</Text>
+const { height } = Dimensions.get('window')
+
+// Remove the status bar height
+// since the modal view does not cover this area
+const ANDROID_MINUS_HEIGHT = 24
+
+const DEFAULT_HEIGHT =
+  Platform.OS === 'android' ? height - ANDROID_MINUS_HEIGHT : height
+
+export const getHeightPercent = percentage =>
+  DEFAULT_HEIGHT * (percentage / 100)
+
+export default {
+  getHeightPercent
 }
-
-Emoji.propTypes = {
-  name: PropTypes.string.isRequired
-}
-
-export default Emoji

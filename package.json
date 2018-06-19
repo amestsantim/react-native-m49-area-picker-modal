@@ -1,6 +1,6 @@
 {
   "name": "react-native-un-code-area-picker-modal",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "M49 Area Picker",
   "main": "src/CountryPicker.js",
   "repository": {
@@ -12,7 +12,7 @@
     "gendata-countries": "rm -rf ./data/countries.json && babel-node ./scripts/generate-sdg-countries.js > ./data/countries.json",
     "gendata-emoji": "rm -rf ./data/countries-emoji.json && babel-node ./scripts/generate-sdg-countries.js --emoji > ./data/countries-emoji.json",
     "gendata-m49": "rm -rf ./data/m49.json && babel-node ./scripts/generate-sdg-countries.js --m49 > ./data/m49.json",
-    "test": "jest"
+    "test": "node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "react-native",
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/amestsantim/react-native-m49-area-picker-modal#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
     "fuse.js": "2.6.2",
     "lodash": "4.12.0",
     "node-emoji": "1.8.1",
