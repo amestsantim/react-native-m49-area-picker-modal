@@ -1,0 +1,2626 @@
+{
+    "100": {
+        "m49": "100",
+        "name": {
+            "en": "Bulgaria",
+            "fr": "Bulgarie"
+        },
+        "flag": "flag-bg"
+    },
+    "104": {
+        "m49": "104",
+        "name": {
+            "en": "Myanmar",
+            "fr": "Birmanie"
+        },
+        "flag": "flag-mm"
+    },
+    "108": {
+        "m49": "108",
+        "name": {
+            "en": "Burundi",
+            "fr": "Burundi"
+        },
+        "flag": "flag-bi"
+    },
+    "112": {
+        "m49": "112",
+        "name": {
+            "en": "Belarus",
+            "fr": "Biélorussie"
+        },
+        "flag": "flag-by"
+    },
+    "116": {
+        "m49": "116",
+        "name": {
+            "en": "Cambodia",
+            "fr": "Cambodge"
+        },
+        "flag": "flag-kh"
+    },
+    "120": {
+        "m49": "120",
+        "name": {
+            "en": "Cameroon",
+            "fr": "Cameroun"
+        },
+        "flag": "flag-cm"
+    },
+    "124": {
+        "m49": "124",
+        "name": {
+            "en": "Canada",
+            "fr": "Canada"
+        },
+        "flag": "flag-ca"
+    },
+    "127": {
+        "m49": "127",
+        "name": {
+            "en": "Southern Asia (excluding India)",
+            "fr": "Southern Asia (excluding India)"
+        },
+        "flag": ""
+    },
+    "132": {
+        "m49": "132",
+        "name": {
+            "en": "Cabo Verde",
+            "fr": "Îles du Cap-Vert"
+        },
+        "flag": "flag-cv"
+    },
+    "135": {
+        "m49": "135",
+        "name": {
+            "en": "Caucasus and Central Asia",
+            "fr": "Caucasus and Central Asia"
+        },
+        "flag": ""
+    },
+    "136": {
+        "m49": "136",
+        "name": {
+            "en": "Cayman Islands",
+            "fr": "Îles Caïmans"
+        },
+        "flag": "flag-ky"
+    },
+    "140": {
+        "m49": "140",
+        "name": {
+            "en": "Central African Republic",
+            "fr": "République centrafricaine"
+        },
+        "flag": "flag-cf"
+    },
+    "142": {
+        "m49": "142",
+        "name": {
+            "en": "Asia",
+            "fr": "Asia"
+        },
+        "flag": ""
+    },
+    "143": {
+        "m49": "143",
+        "name": {
+            "en": "Central Asia",
+            "fr": "Central Asia"
+        },
+        "flag": ""
+    },
+    "144": {
+        "m49": "144",
+        "name": {
+            "en": "Sri Lanka",
+            "fr": "Sri Lanka"
+        },
+        "flag": "flag-lk"
+    },
+    "145": {
+        "m49": "145",
+        "name": {
+            "en": "Western Asia",
+            "fr": "Western Asia"
+        },
+        "flag": ""
+    },
+    "148": {
+        "m49": "148",
+        "name": {
+            "en": "Chad",
+            "fr": "Tchad"
+        },
+        "flag": "flag-td"
+    },
+    "150": {
+        "m49": "150",
+        "name": {
+            "en": "Europe",
+            "fr": "Europe"
+        },
+        "flag": ""
+    },
+    "151": {
+        "m49": "151",
+        "name": {
+            "en": "Eastern Europe",
+            "fr": "Eastern Europe"
+        },
+        "flag": ""
+    },
+    "152": {
+        "m49": "152",
+        "name": {
+            "en": "Chile",
+            "fr": "Chili"
+        },
+        "flag": "flag-cl"
+    },
+    "154": {
+        "m49": "154",
+        "name": {
+            "en": "Northern Europe",
+            "fr": "Northern Europe"
+        },
+        "flag": ""
+    },
+    "155": {
+        "m49": "155",
+        "name": {
+            "en": "Western Europe",
+            "fr": "Western Europe"
+        },
+        "flag": ""
+    },
+    "156": {
+        "m49": "156",
+        "name": {
+            "en": "China",
+            "fr": "Chine"
+        },
+        "flag": "flag-cn"
+    },
+    "158": {
+        "m49": "158",
+        "name": {
+            "en": "Taiwan, Republic of China",
+            "fr": "Taïwan"
+        },
+        "flag": "flag-tw"
+    },
+    "162": {
+        "m49": "162",
+        "name": {
+            "en": "Christmas Island",
+            "fr": "Île Christmas"
+        },
+        "flag": "flag-cx"
+    },
+    "166": {
+        "m49": "166",
+        "name": {
+            "en": "Cocos (Keeling) Islands",
+            "fr": "Îles Cocos"
+        },
+        "flag": "flag-cc"
+    },
+    "170": {
+        "m49": "170",
+        "name": {
+            "en": "Colombia",
+            "fr": "Colombie"
+        },
+        "flag": "flag-co"
+    },
+    "174": {
+        "m49": "174",
+        "name": {
+            "en": "Comoros",
+            "fr": "Comores"
+        },
+        "flag": "flag-km"
+    },
+    "175": {
+        "m49": "175",
+        "name": {
+            "en": "Mayotte",
+            "fr": "Mayotte"
+        },
+        "flag": "flag-yt"
+    },
+    "178": {
+        "m49": "178",
+        "name": {
+            "en": "Congo",
+            "fr": "Congo"
+        },
+        "flag": "flag-cg"
+    },
+    "180": {
+        "m49": "180",
+        "name": {
+            "en": "Democratic Republic of the Congo",
+            "fr": "Congo (Rép. dém.)"
+        },
+        "flag": "flag-cd"
+    },
+    "184": {
+        "m49": "184",
+        "name": {
+            "en": "Cook Islands",
+            "fr": "Îles Cook"
+        },
+        "flag": "flag-ck"
+    },
+    "188": {
+        "m49": "188",
+        "name": {
+            "en": "Costa Rica",
+            "fr": "Costa Rica"
+        },
+        "flag": "flag-cr"
+    },
+    "191": {
+        "m49": "191",
+        "name": {
+            "en": "Croatia",
+            "fr": "Croatie"
+        },
+        "flag": "flag-hr"
+    },
+    "192": {
+        "m49": "192",
+        "name": {
+            "en": "Cuba",
+            "fr": "Cuba"
+        },
+        "flag": "flag-cu"
+    },
+    "196": {
+        "m49": "196",
+        "name": {
+            "en": "Cyprus",
+            "fr": "Chypre"
+        },
+        "flag": "flag-cy"
+    },
+    "198": {
+        "m49": "198",
+        "name": {
+            "en": "Organisation for Economic Co-operation and Development (OECD) Member States",
+            "fr": "Organisation for Economic Co-operation and Development (OECD) Member States"
+        },
+        "flag": ""
+    },
+    "199": {
+        "m49": "199",
+        "name": {
+            "en": "Least Developed Countries (LDCs)",
+            "fr": "Least Developed Countries (LDCs)"
+        },
+        "flag": ""
+    },
+    "202": {
+        "m49": "202",
+        "name": {
+            "en": "Sub-Saharan Africa",
+            "fr": "Sub-Saharan Africa"
+        },
+        "flag": ""
+    },
+    "203": {
+        "m49": "203",
+        "name": {
+            "en": "Czechia",
+            "fr": "République tchèque"
+        },
+        "flag": "flag-cz"
+    },
+    "204": {
+        "m49": "204",
+        "name": {
+            "en": "Benin",
+            "fr": "Bénin"
+        },
+        "flag": "flag-bj"
+    },
+    "208": {
+        "m49": "208",
+        "name": {
+            "en": "Denmark",
+            "fr": "Danemark"
+        },
+        "flag": "flag-dk"
+    },
+    "212": {
+        "m49": "212",
+        "name": {
+            "en": "Dominica",
+            "fr": "Dominique"
+        },
+        "flag": "flag-dm"
+    },
+    "214": {
+        "m49": "214",
+        "name": {
+            "en": "Dominican Republic",
+            "fr": "République dominicaine"
+        },
+        "flag": "flag-do"
+    },
+    "218": {
+        "m49": "218",
+        "name": {
+            "en": "Ecuador",
+            "fr": "Équateur"
+        },
+        "flag": "flag-ec"
+    },
+    "222": {
+        "m49": "222",
+        "name": {
+            "en": "El Salvador",
+            "fr": "Salvador"
+        },
+        "flag": "flag-sv"
+    },
+    "223": {
+        "m49": "223",
+        "name": {
+            "en": "Eastern Asia (excluding Japan and China)",
+            "fr": "Eastern Asia (excluding Japan and China)"
+        },
+        "flag": ""
+    },
+    "226": {
+        "m49": "226",
+        "name": {
+            "en": "Equatorial Guinea",
+            "fr": "Guinée équatoriale"
+        },
+        "flag": "flag-gq"
+    },
+    "231": {
+        "m49": "231",
+        "name": {
+            "en": "Ethiopia",
+            "fr": "Éthiopie"
+        },
+        "flag": "flag-et"
+    },
+    "232": {
+        "m49": "232",
+        "name": {
+            "en": "Eritrea",
+            "fr": "Érythrée"
+        },
+        "flag": "flag-er"
+    },
+    "233": {
+        "m49": "233",
+        "name": {
+            "en": "Estonia",
+            "fr": "Estonie"
+        },
+        "flag": "flag-ee"
+    },
+    "234": {
+        "m49": "234",
+        "name": {
+            "en": "Faroe Islands",
+            "fr": "Îles Féroé"
+        },
+        "flag": "flag-fo"
+    },
+    "238": {
+        "m49": "238",
+        "name": {
+            "en": "Falkland Islands (Malvinas)",
+            "fr": "Îles Malouines"
+        },
+        "flag": "flag-fk"
+    },
+    "239": {
+        "m49": "239",
+        "name": {
+            "en": "South Georgia and the South Sandwich Islands",
+            "fr": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+        },
+        "flag": "flag-gs"
+    },
+    "242": {
+        "m49": "242",
+        "name": {
+            "en": "Fiji",
+            "fr": "Fidji"
+        },
+        "flag": "flag-fj"
+    },
+    "246": {
+        "m49": "246",
+        "name": {
+            "en": "Finland",
+            "fr": "Finlande"
+        },
+        "flag": "flag-fi"
+    },
+    "248": {
+        "m49": "248",
+        "name": {
+            "en": "Åland Islands",
+            "fr": "Ahvenanmaa"
+        },
+        "flag": "flag-ax"
+    },
+    "250": {
+        "m49": "250",
+        "name": {
+            "en": "France",
+            "fr": "France"
+        },
+        "flag": "flag-fr"
+    },
+    "254": {
+        "m49": "254",
+        "name": {
+            "en": "French Guiana",
+            "fr": "Guyane"
+        },
+        "flag": "flag-gf"
+    },
+    "258": {
+        "m49": "258",
+        "name": {
+            "en": "French Polynesia",
+            "fr": "Polynésie française"
+        },
+        "flag": "flag-pf"
+    },
+    "260": {
+        "m49": "260",
+        "name": {
+            "en": "French Southern Territories",
+            "fr": "Terres australes et antarctiques françaises"
+        },
+        "flag": "flag-tf"
+    },
+    "262": {
+        "m49": "262",
+        "name": {
+            "en": "Djibouti",
+            "fr": "Djibouti"
+        },
+        "flag": "flag-dj"
+    },
+    "266": {
+        "m49": "266",
+        "name": {
+            "en": "Gabon",
+            "fr": "Gabon"
+        },
+        "flag": "flag-ga"
+    },
+    "268": {
+        "m49": "268",
+        "name": {
+            "en": "Georgia",
+            "fr": "Géorgie"
+        },
+        "flag": "flag-ge"
+    },
+    "270": {
+        "m49": "270",
+        "name": {
+            "en": "Gambia",
+            "fr": "Gambie"
+        },
+        "flag": "flag-gm"
+    },
+    "275": {
+        "m49": "275",
+        "name": {
+            "en": "State of Palestine",
+            "fr": "Palestine"
+        },
+        "flag": "flag-ps"
+    },
+    "276": {
+        "m49": "276",
+        "name": {
+            "en": "Germany",
+            "fr": "Allemagne"
+        },
+        "flag": "flag-de"
+    },
+    "288": {
+        "m49": "288",
+        "name": {
+            "en": "Ghana",
+            "fr": "Ghana"
+        },
+        "flag": "flag-gh"
+    },
+    "292": {
+        "m49": "292",
+        "name": {
+            "en": "Gibraltar",
+            "fr": "Gibraltar"
+        },
+        "flag": "flag-gi"
+    },
+    "296": {
+        "m49": "296",
+        "name": {
+            "en": "Kiribati",
+            "fr": "Kiribati"
+        },
+        "flag": "flag-ki"
+    },
+    "300": {
+        "m49": "300",
+        "name": {
+            "en": "Greece",
+            "fr": "Grèce"
+        },
+        "flag": "flag-gr"
+    },
+    "304": {
+        "m49": "304",
+        "name": {
+            "en": "Greenland",
+            "fr": "Groenland"
+        },
+        "flag": "flag-gl"
+    },
+    "308": {
+        "m49": "308",
+        "name": {
+            "en": "Grenada",
+            "fr": "Grenade"
+        },
+        "flag": "flag-gd"
+    },
+    "312": {
+        "m49": "312",
+        "name": {
+            "en": "Guadeloupe",
+            "fr": "Guadeloupe"
+        },
+        "flag": "flag-gp"
+    },
+    "316": {
+        "m49": "316",
+        "name": {
+            "en": "Guam",
+            "fr": "Guam"
+        },
+        "flag": "flag-gu"
+    },
+    "320": {
+        "m49": "320",
+        "name": {
+            "en": "Guatemala",
+            "fr": "Guatemala"
+        },
+        "flag": "flag-gt"
+    },
+    "324": {
+        "m49": "324",
+        "name": {
+            "en": "Guinea",
+            "fr": "Guinée"
+        },
+        "flag": "flag-gn"
+    },
+    "328": {
+        "m49": "328",
+        "name": {
+            "en": "Guyana",
+            "fr": "Guyana"
+        },
+        "flag": "flag-gy"
+    },
+    "332": {
+        "m49": "332",
+        "name": {
+            "en": "Haiti",
+            "fr": "Haïti"
+        },
+        "flag": "flag-ht"
+    },
+    "334": {
+        "m49": "334",
+        "name": {
+            "en": "Heard Island and McDonald Islands",
+            "fr": "Îles Heard-et-MacDonald"
+        },
+        "flag": "flag-hm"
+    },
+    "336": {
+        "m49": "336",
+        "name": {
+            "en": "Holy See",
+            "fr": "Cité du Vatican"
+        },
+        "flag": "flag-va"
+    },
+    "340": {
+        "m49": "340",
+        "name": {
+            "en": "Honduras",
+            "fr": "Honduras"
+        },
+        "flag": "flag-hn"
+    },
+    "344": {
+        "m49": "344",
+        "name": {
+            "en": "China, Hong Kong Special Administrative Region",
+            "fr": "Hong Kong"
+        },
+        "flag": "flag-hk"
+    },
+    "348": {
+        "m49": "348",
+        "name": {
+            "en": "Hungary",
+            "fr": "Hongrie"
+        },
+        "flag": "flag-hu"
+    },
+    "352": {
+        "m49": "352",
+        "name": {
+            "en": "Iceland",
+            "fr": "Islande"
+        },
+        "flag": "flag-is"
+    },
+    "356": {
+        "m49": "356",
+        "name": {
+            "en": "India",
+            "fr": "Inde"
+        },
+        "flag": "flag-in"
+    },
+    "360": {
+        "m49": "360",
+        "name": {
+            "en": "Indonesia",
+            "fr": "Indonésie"
+        },
+        "flag": "flag-id"
+    },
+    "364": {
+        "m49": "364",
+        "name": {
+            "en": "Iran (Islamic Republic of)",
+            "fr": "Iran"
+        },
+        "flag": "flag-ir"
+    },
+    "368": {
+        "m49": "368",
+        "name": {
+            "en": "Iraq",
+            "fr": "Irak"
+        },
+        "flag": "flag-iq"
+    },
+    "372": {
+        "m49": "372",
+        "name": {
+            "en": "Ireland",
+            "fr": "Irlande"
+        },
+        "flag": "flag-ie"
+    },
+    "376": {
+        "m49": "376",
+        "name": {
+            "en": "Israel",
+            "fr": "Israël"
+        },
+        "flag": "flag-il"
+    },
+    "380": {
+        "m49": "380",
+        "name": {
+            "en": "Italy",
+            "fr": "Italie"
+        },
+        "flag": "flag-it"
+    },
+    "384": {
+        "m49": "384",
+        "name": {
+            "en": "Côte d'Ivoire",
+            "fr": "Côte d'Ivoire"
+        },
+        "flag": "flag-ci"
+    },
+    "388": {
+        "m49": "388",
+        "name": {
+            "en": "Jamaica",
+            "fr": "Jamaïque"
+        },
+        "flag": "flag-jm"
+    },
+    "392": {
+        "m49": "392",
+        "name": {
+            "en": "Japan",
+            "fr": "Japon"
+        },
+        "flag": "flag-jp"
+    },
+    "398": {
+        "m49": "398",
+        "name": {
+            "en": "Kazakhstan",
+            "fr": "Kazakhstan"
+        },
+        "flag": "flag-kz"
+    },
+    "400": {
+        "m49": "400",
+        "name": {
+            "en": "Jordan",
+            "fr": "Jordanie"
+        },
+        "flag": "flag-jo"
+    },
+    "404": {
+        "m49": "404",
+        "name": {
+            "en": "Kenya",
+            "fr": "Kenya"
+        },
+        "flag": "flag-ke"
+    },
+    "408": {
+        "m49": "408",
+        "name": {
+            "en": "Democratic People's Republic of Korea",
+            "fr": "Corée du Nord"
+        },
+        "flag": "flag-kp"
+    },
+    "410": {
+        "m49": "410",
+        "name": {
+            "en": "Republic of Korea",
+            "fr": "Corée du Sud"
+        },
+        "flag": "flag-kr"
+    },
+    "412": {
+        "m49": "412",
+        "name": {
+            "en": "Kosovo",
+            "fr": "Kosovo"
+        },
+        "flag": ""
+    },
+    "414": {
+        "m49": "414",
+        "name": {
+            "en": "Kuwait",
+            "fr": "Koweït"
+        },
+        "flag": "flag-kw"
+    },
+    "417": {
+        "m49": "417",
+        "name": {
+            "en": "Kyrgyzstan",
+            "fr": "Kirghizistan"
+        },
+        "flag": "flag-kg"
+    },
+    "418": {
+        "m49": "418",
+        "name": {
+            "en": "Lao People's Democratic Republic",
+            "fr": "Laos"
+        },
+        "flag": "flag-la"
+    },
+    "419": {
+        "m49": "419",
+        "name": {
+            "en": "Latin America and the Caribbean",
+            "fr": "Latin America and the Caribbean"
+        },
+        "flag": ""
+    },
+    "420": {
+        "m49": "420",
+        "name": {
+            "en": "Latin America",
+            "fr": "Latin America"
+        },
+        "flag": ""
+    },
+    "422": {
+        "m49": "422",
+        "name": {
+            "en": "Lebanon",
+            "fr": "Liban"
+        },
+        "flag": "flag-lb"
+    },
+    "426": {
+        "m49": "426",
+        "name": {
+            "en": "Lesotho",
+            "fr": "Lesotho"
+        },
+        "flag": "flag-ls"
+    },
+    "428": {
+        "m49": "428",
+        "name": {
+            "en": "Latvia",
+            "fr": "Lettonie"
+        },
+        "flag": "flag-lv"
+    },
+    "430": {
+        "m49": "430",
+        "name": {
+            "en": "Liberia",
+            "fr": "Liberia"
+        },
+        "flag": "flag-lr"
+    },
+    "432": {
+        "m49": "432",
+        "name": {
+            "en": "Landlocked developing countries (LLDCs)",
+            "fr": "Landlocked developing countries (LLDCs)"
+        },
+        "flag": ""
+    },
+    "434": {
+        "m49": "434",
+        "name": {
+            "en": "Libya",
+            "fr": "Libye"
+        },
+        "flag": "flag-ly"
+    },
+    "438": {
+        "m49": "438",
+        "name": {
+            "en": "Liechtenstein",
+            "fr": "Liechtenstein"
+        },
+        "flag": "flag-li"
+    },
+    "440": {
+        "m49": "440",
+        "name": {
+            "en": "Lithuania",
+            "fr": "Lituanie"
+        },
+        "flag": "flag-lt"
+    },
+    "442": {
+        "m49": "442",
+        "name": {
+            "en": "Luxembourg",
+            "fr": "Luxembourg"
+        },
+        "flag": "flag-lu"
+    },
+    "446": {
+        "m49": "446",
+        "name": {
+            "en": "China, Macao Special Administrative Region",
+            "fr": "Macao"
+        },
+        "flag": "flag-mo"
+    },
+    "450": {
+        "m49": "450",
+        "name": {
+            "en": "Madagascar",
+            "fr": "Madagascar"
+        },
+        "flag": "flag-mg"
+    },
+    "454": {
+        "m49": "454",
+        "name": {
+            "en": "Malawi",
+            "fr": "Malawi"
+        },
+        "flag": "flag-mw"
+    },
+    "458": {
+        "m49": "458",
+        "name": {
+            "en": "Malaysia",
+            "fr": "Malaisie"
+        },
+        "flag": "flag-my"
+    },
+    "462": {
+        "m49": "462",
+        "name": {
+            "en": "Maldives",
+            "fr": "Maldives"
+        },
+        "flag": "flag-mv"
+    },
+    "466": {
+        "m49": "466",
+        "name": {
+            "en": "Mali",
+            "fr": "Mali"
+        },
+        "flag": "flag-ml"
+    },
+    "470": {
+        "m49": "470",
+        "name": {
+            "en": "Malta",
+            "fr": "Malte"
+        },
+        "flag": "flag-mt"
+    },
+    "474": {
+        "m49": "474",
+        "name": {
+            "en": "Martinique",
+            "fr": "Martinique"
+        },
+        "flag": "flag-mq"
+    },
+    "478": {
+        "m49": "478",
+        "name": {
+            "en": "Mauritania",
+            "fr": "Mauritanie"
+        },
+        "flag": "flag-mr"
+    },
+    "480": {
+        "m49": "480",
+        "name": {
+            "en": "Mauritius",
+            "fr": "Île Maurice"
+        },
+        "flag": "flag-mu"
+    },
+    "484": {
+        "m49": "484",
+        "name": {
+            "en": "Mexico",
+            "fr": "Mexique"
+        },
+        "flag": "flag-mx"
+    },
+    "485": {
+        "m49": "485",
+        "name": {
+            "en": "Western Asia (exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia)",
+            "fr": "Western Asia (exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia)"
+        },
+        "flag": ""
+    },
+    "492": {
+        "m49": "492",
+        "name": {
+            "en": "Monaco",
+            "fr": "Monaco"
+        },
+        "flag": "flag-mc"
+    },
+    "496": {
+        "m49": "496",
+        "name": {
+            "en": "Mongolia",
+            "fr": "Mongolie"
+        },
+        "flag": "flag-mn"
+    },
+    "498": {
+        "m49": "498",
+        "name": {
+            "en": "Republic of Moldova",
+            "fr": "Moldavie"
+        },
+        "flag": "flag-md"
+    },
+    "499": {
+        "m49": "499",
+        "name": {
+            "en": "Montenegro",
+            "fr": "Monténégro"
+        },
+        "flag": "flag-me"
+    },
+    "500": {
+        "m49": "500",
+        "name": {
+            "en": "Montserrat",
+            "fr": "Montserrat"
+        },
+        "flag": "flag-ms"
+    },
+    "504": {
+        "m49": "504",
+        "name": {
+            "en": "Morocco",
+            "fr": "Maroc"
+        },
+        "flag": "flag-ma"
+    },
+    "508": {
+        "m49": "508",
+        "name": {
+            "en": "Mozambique",
+            "fr": "Mozambique"
+        },
+        "flag": "flag-mz"
+    },
+    "512": {
+        "m49": "512",
+        "name": {
+            "en": "Oman",
+            "fr": "Oman"
+        },
+        "flag": "flag-om"
+    },
+    "513": {
+        "m49": "513",
+        "name": {
+            "en": "Europe and Northern America",
+            "fr": "Europe and Northern America"
+        },
+        "flag": ""
+    },
+    "514": {
+        "m49": "514",
+        "name": {
+            "en": "Developed regions (Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand)",
+            "fr": "Developed regions (Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand)"
+        },
+        "flag": ""
+    },
+    "515": {
+        "m49": "515",
+        "name": {
+            "en": "Developing regions",
+            "fr": "Developing regions"
+        },
+        "flag": ""
+    },
+    "516": {
+        "m49": "516",
+        "name": {
+            "en": "Namibia",
+            "fr": "Namibie"
+        },
+        "flag": "flag-na"
+    },
+    "518": {
+        "m49": "518",
+        "name": {
+            "en": "Eastern Asia (excluding Japan)",
+            "fr": "Eastern Asia (excluding Japan)"
+        },
+        "flag": ""
+    },
+    "520": {
+        "m49": "520",
+        "name": {
+            "en": "Nauru",
+            "fr": "Nauru"
+        },
+        "flag": "flag-nr"
+    },
+    "524": {
+        "m49": "524",
+        "name": {
+            "en": "Nepal",
+            "fr": "Népal"
+        },
+        "flag": "flag-np"
+    },
+    "528": {
+        "m49": "528",
+        "name": {
+            "en": "Netherlands",
+            "fr": "Pays-Bas"
+        },
+        "flag": "flag-nl"
+    },
+    "530": {
+        "m49": "530",
+        "name": {
+            "en": "Netherlands Antilles",
+            "fr": "Netherlands Antilles"
+        },
+        "flag": ""
+    },
+    "531": {
+        "m49": "531",
+        "name": {
+            "en": "Curaçao",
+            "fr": "Curaçao"
+        },
+        "flag": "flag-cw"
+    },
+    "533": {
+        "m49": "533",
+        "name": {
+            "en": "Aruba",
+            "fr": "Aruba"
+        },
+        "flag": "flag-aw"
+    },
+    "534": {
+        "m49": "534",
+        "name": {
+            "en": "Sint Maarten (Dutch part)",
+            "fr": "Saint-Martin"
+        },
+        "flag": "flag-sx"
+    },
+    "535": {
+        "m49": "535",
+        "name": {
+            "en": "Bonaire, Sint Eustatius and Saba",
+            "fr": "Bonaire, Sint Eustatius and Saba"
+        },
+        "flag": ""
+    },
+    "540": {
+        "m49": "540",
+        "name": {
+            "en": "New Caledonia",
+            "fr": "Nouvelle-Calédonie"
+        },
+        "flag": "flag-nc"
+    },
+    "543": {
+        "m49": "543",
+        "name": {
+            "en": "Oceania (exc. Australia and New Zealand)",
+            "fr": "Oceania (exc. Australia and New Zealand)"
+        },
+        "flag": ""
+    },
+    "548": {
+        "m49": "548",
+        "name": {
+            "en": "Vanuatu",
+            "fr": "Vanuatu"
+        },
+        "flag": "flag-vu"
+    },
+    "554": {
+        "m49": "554",
+        "name": {
+            "en": "New Zealand",
+            "fr": "Nouvelle-Zélande"
+        },
+        "flag": "flag-nz"
+    },
+    "558": {
+        "m49": "558",
+        "name": {
+            "en": "Nicaragua",
+            "fr": "Nicaragua"
+        },
+        "flag": "flag-ni"
+    },
+    "562": {
+        "m49": "562",
+        "name": {
+            "en": "Niger",
+            "fr": "Niger"
+        },
+        "flag": "flag-ne"
+    },
+    "566": {
+        "m49": "566",
+        "name": {
+            "en": "Nigeria",
+            "fr": "Nigéria"
+        },
+        "flag": "flag-ng"
+    },
+    "570": {
+        "m49": "570",
+        "name": {
+            "en": "Niue",
+            "fr": "Niue"
+        },
+        "flag": "flag-nu"
+    },
+    "574": {
+        "m49": "574",
+        "name": {
+            "en": "Norfolk Island",
+            "fr": "Île Norfolk"
+        },
+        "flag": "flag-nf"
+    },
+    "578": {
+        "m49": "578",
+        "name": {
+            "en": "Norway",
+            "fr": "Norvège"
+        },
+        "flag": "flag-no"
+    },
+    "580": {
+        "m49": "580",
+        "name": {
+            "en": "Northern Mariana Islands",
+            "fr": "Îles Mariannes du Nord"
+        },
+        "flag": "flag-mp"
+    },
+    "581": {
+        "m49": "581",
+        "name": {
+            "en": "United States Minor Outlying Islands",
+            "fr": "Îles mineures éloignées des États-Unis"
+        },
+        "flag": "flag-um"
+    },
+    "583": {
+        "m49": "583",
+        "name": {
+            "en": "Micronesia (Federated States of)",
+            "fr": "Micronésie"
+        },
+        "flag": "flag-fm"
+    },
+    "584": {
+        "m49": "584",
+        "name": {
+            "en": "Marshall Islands",
+            "fr": "Îles Marshall"
+        },
+        "flag": "flag-mh"
+    },
+    "585": {
+        "m49": "585",
+        "name": {
+            "en": "Palau",
+            "fr": "Palaos (Palau)"
+        },
+        "flag": "flag-pw"
+    },
+    "586": {
+        "m49": "586",
+        "name": {
+            "en": "Pakistan",
+            "fr": "Pakistan"
+        },
+        "flag": "flag-pk"
+    },
+    "591": {
+        "m49": "591",
+        "name": {
+            "en": "Panama",
+            "fr": "Panama"
+        },
+        "flag": "flag-pa"
+    },
+    "593": {
+        "m49": "593",
+        "name": {
+            "en": "Development Assistance Committee members (DAC)",
+            "fr": "Development Assistance Committee members (DAC)"
+        },
+        "flag": ""
+    },
+    "598": {
+        "m49": "598",
+        "name": {
+            "en": "Papua New Guinea",
+            "fr": "Papouasie-Nouvelle-Guinée"
+        },
+        "flag": "flag-pg"
+    },
+    "600": {
+        "m49": "600",
+        "name": {
+            "en": "Paraguay",
+            "fr": "Paraguay"
+        },
+        "flag": "flag-py"
+    },
+    "604": {
+        "m49": "604",
+        "name": {
+            "en": "Peru",
+            "fr": "Pérou"
+        },
+        "flag": "flag-pe"
+    },
+    "608": {
+        "m49": "608",
+        "name": {
+            "en": "Philippines",
+            "fr": "Philippines"
+        },
+        "flag": "flag-ph"
+    },
+    "612": {
+        "m49": "612",
+        "name": {
+            "en": "Pitcairn",
+            "fr": "Îles Pitcairn"
+        },
+        "flag": "flag-pn"
+    },
+    "616": {
+        "m49": "616",
+        "name": {
+            "en": "Poland",
+            "fr": "Pologne"
+        },
+        "flag": "flag-pl"
+    },
+    "620": {
+        "m49": "620",
+        "name": {
+            "en": "Portugal",
+            "fr": "Portugal"
+        },
+        "flag": "flag-pt"
+    },
+    "624": {
+        "m49": "624",
+        "name": {
+            "en": "Guinea-Bissau",
+            "fr": "Guinée-Bissau"
+        },
+        "flag": "flag-gw"
+    },
+    "626": {
+        "m49": "626",
+        "name": {
+            "en": "Timor-Leste",
+            "fr": "Timor oriental"
+        },
+        "flag": "flag-tl"
+    },
+    "630": {
+        "m49": "630",
+        "name": {
+            "en": "Puerto Rico",
+            "fr": "Porto Rico"
+        },
+        "flag": "flag-pr"
+    },
+    "634": {
+        "m49": "634",
+        "name": {
+            "en": "Qatar",
+            "fr": "Qatar"
+        },
+        "flag": "flag-qa"
+    },
+    "638": {
+        "m49": "638",
+        "name": {
+            "en": "Réunion",
+            "fr": "Réunion"
+        },
+        "flag": "flag-re"
+    },
+    "642": {
+        "m49": "642",
+        "name": {
+            "en": "Romania",
+            "fr": "Roumanie"
+        },
+        "flag": "flag-ro"
+    },
+    "643": {
+        "m49": "643",
+        "name": {
+            "en": "Russian Federation",
+            "fr": "Russie"
+        },
+        "flag": "flag-ru"
+    },
+    "646": {
+        "m49": "646",
+        "name": {
+            "en": "Rwanda",
+            "fr": "Rwanda"
+        },
+        "flag": "flag-rw"
+    },
+    "652": {
+        "m49": "652",
+        "name": {
+            "en": "Saint Barthélemy",
+            "fr": "Saint-Barthélemy"
+        },
+        "flag": "flag-bl"
+    },
+    "654": {
+        "m49": "654",
+        "name": {
+            "en": "Saint Helena",
+            "fr": "Saint Helena"
+        },
+        "flag": ""
+    },
+    "659": {
+        "m49": "659",
+        "name": {
+            "en": "Saint Kitts and Nevis",
+            "fr": "Saint-Christophe-et-Niévès"
+        },
+        "flag": "flag-kn"
+    },
+    "660": {
+        "m49": "660",
+        "name": {
+            "en": "Anguilla",
+            "fr": "Anguilla"
+        },
+        "flag": "flag-ai"
+    },
+    "662": {
+        "m49": "662",
+        "name": {
+            "en": "Saint Lucia",
+            "fr": "Sainte-Lucie"
+        },
+        "flag": "flag-lc"
+    },
+    "663": {
+        "m49": "663",
+        "name": {
+            "en": "Saint Martin (French Part)",
+            "fr": "Saint-Martin"
+        },
+        "flag": "flag-mf"
+    },
+    "666": {
+        "m49": "666",
+        "name": {
+            "en": "Saint Pierre and Miquelon",
+            "fr": "Saint-Pierre-et-Miquelon"
+        },
+        "flag": "flag-pm"
+    },
+    "670": {
+        "m49": "670",
+        "name": {
+            "en": "Saint Vincent and the Grenadines",
+            "fr": "Saint-Vincent-et-les-Grenadines"
+        },
+        "flag": "flag-vc"
+    },
+    "674": {
+        "m49": "674",
+        "name": {
+            "en": "San Marino",
+            "fr": "Saint-Marin"
+        },
+        "flag": "flag-sm"
+    },
+    "678": {
+        "m49": "678",
+        "name": {
+            "en": "Sao Tome and Principe",
+            "fr": "São Tomé et Príncipe"
+        },
+        "flag": "flag-st"
+    },
+    "680": {
+        "m49": "680",
+        "name": {
+            "en": "Sark",
+            "fr": "Sark"
+        },
+        "flag": ""
+    },
+    "682": {
+        "m49": "682",
+        "name": {
+            "en": "Saudi Arabia",
+            "fr": "Arabie Saoudite"
+        },
+        "flag": "flag-sa"
+    },
+    "686": {
+        "m49": "686",
+        "name": {
+            "en": "Senegal",
+            "fr": "Sénégal"
+        },
+        "flag": "flag-sn"
+    },
+    "688": {
+        "m49": "688",
+        "name": {
+            "en": "Serbia",
+            "fr": "Serbie"
+        },
+        "flag": "flag-rs"
+    },
+    "690": {
+        "m49": "690",
+        "name": {
+            "en": "Seychelles",
+            "fr": "Seychelles"
+        },
+        "flag": "flag-sc"
+    },
+    "694": {
+        "m49": "694",
+        "name": {
+            "en": "Sierra Leone",
+            "fr": "Sierra Leone"
+        },
+        "flag": "flag-sl"
+    },
+    "702": {
+        "m49": "702",
+        "name": {
+            "en": "Singapore",
+            "fr": "Singapour"
+        },
+        "flag": "flag-sg"
+    },
+    "703": {
+        "m49": "703",
+        "name": {
+            "en": "Slovakia",
+            "fr": "Slovaquie"
+        },
+        "flag": "flag-sk"
+    },
+    "704": {
+        "m49": "704",
+        "name": {
+            "en": "Viet Nam",
+            "fr": "Viêt Nam"
+        },
+        "flag": "flag-vn"
+    },
+    "705": {
+        "m49": "705",
+        "name": {
+            "en": "Slovenia",
+            "fr": "Slovénie"
+        },
+        "flag": "flag-si"
+    },
+    "706": {
+        "m49": "706",
+        "name": {
+            "en": "Somalia",
+            "fr": "Somalie"
+        },
+        "flag": "flag-so"
+    },
+    "710": {
+        "m49": "710",
+        "name": {
+            "en": "South Africa",
+            "fr": "Afrique du Sud"
+        },
+        "flag": "flag-za"
+    },
+    "716": {
+        "m49": "716",
+        "name": {
+            "en": "Zimbabwe",
+            "fr": "Zimbabwe"
+        },
+        "flag": "flag-zw"
+    },
+    "722": {
+        "m49": "722",
+        "name": {
+            "en": "Small island developing States (SIDS)",
+            "fr": "Small island developing States (SIDS)"
+        },
+        "flag": ""
+    },
+    "724": {
+        "m49": "724",
+        "name": {
+            "en": "Spain",
+            "fr": "Espagne"
+        },
+        "flag": "flag-es"
+    },
+    "728": {
+        "m49": "728",
+        "name": {
+            "en": "South Sudan",
+            "fr": "Soudan du Sud"
+        },
+        "flag": "flag-ss"
+    },
+    "729": {
+        "m49": "729",
+        "name": {
+            "en": "Sudan",
+            "fr": "Soudan"
+        },
+        "flag": "flag-sd"
+    },
+    "732": {
+        "m49": "732",
+        "name": {
+            "en": "Western Sahara",
+            "fr": "Sahara Occidental"
+        },
+        "flag": "flag-eh"
+    },
+    "736": {
+        "m49": "736",
+        "name": {
+            "en": "Sudan [former]",
+            "fr": "Sudan [former]"
+        },
+        "flag": ""
+    },
+    "738": {
+        "m49": "738",
+        "name": {
+            "en": "Sub-Saharan Africa (inc. Sudan)",
+            "fr": "Sub-Saharan Africa (inc. Sudan)"
+        },
+        "flag": ""
+    },
+    "740": {
+        "m49": "740",
+        "name": {
+            "en": "Suriname",
+            "fr": "Surinam"
+        },
+        "flag": "flag-sr"
+    },
+    "744": {
+        "m49": "744",
+        "name": {
+            "en": "Svalbard and Jan Mayen Islands",
+            "fr": "Svalbard et Jan Mayen"
+        },
+        "flag": "flag-sj"
+    },
+    "746": {
+        "m49": "746",
+        "name": {
+            "en": "Northern Africa (exc. Sudan)",
+            "fr": "Northern Africa (exc. Sudan)"
+        },
+        "flag": ""
+    },
+    "747": {
+        "m49": "747",
+        "name": {
+            "en": "Northern Africa and Western Asia",
+            "fr": "Northern Africa and Western Asia"
+        },
+        "flag": ""
+    },
+    "748": {
+        "m49": "748",
+        "name": {
+            "en": "Eswatini",
+            "fr": "Swaziland"
+        },
+        "flag": "flag-sz"
+    },
+    "752": {
+        "m49": "752",
+        "name": {
+            "en": "Sweden",
+            "fr": "Suède"
+        },
+        "flag": "flag-se"
+    },
+    "753": {
+        "m49": "753",
+        "name": {
+            "en": "Eastern and South-Eastern Asia",
+            "fr": "Eastern and South-Eastern Asia"
+        },
+        "flag": ""
+    },
+    "756": {
+        "m49": "756",
+        "name": {
+            "en": "Switzerland",
+            "fr": "Suisse"
+        },
+        "flag": "flag-ch"
+    },
+    "760": {
+        "m49": "760",
+        "name": {
+            "en": "Syrian Arab Republic",
+            "fr": "Syrie"
+        },
+        "flag": "flag-sy"
+    },
+    "762": {
+        "m49": "762",
+        "name": {
+            "en": "Tajikistan",
+            "fr": "Tadjikistan"
+        },
+        "flag": "flag-tj"
+    },
+    "764": {
+        "m49": "764",
+        "name": {
+            "en": "Thailand",
+            "fr": "Thaïlande"
+        },
+        "flag": "flag-th"
+    },
+    "768": {
+        "m49": "768",
+        "name": {
+            "en": "Togo",
+            "fr": "Togo"
+        },
+        "flag": "flag-tg"
+    },
+    "772": {
+        "m49": "772",
+        "name": {
+            "en": "Tokelau",
+            "fr": "Tokelau"
+        },
+        "flag": "flag-tk"
+    },
+    "776": {
+        "m49": "776",
+        "name": {
+            "en": "Tonga",
+            "fr": "Tonga"
+        },
+        "flag": "flag-to"
+    },
+    "780": {
+        "m49": "780",
+        "name": {
+            "en": "Trinidad and Tobago",
+            "fr": "Trinité-et-Tobago"
+        },
+        "flag": "flag-tt"
+    },
+    "784": {
+        "m49": "784",
+        "name": {
+            "en": "United Arab Emirates",
+            "fr": "Émirats arabes unis"
+        },
+        "flag": "flag-ae"
+    },
+    "788": {
+        "m49": "788",
+        "name": {
+            "en": "Tunisia",
+            "fr": "Tunisie"
+        },
+        "flag": "flag-tn"
+    },
+    "792": {
+        "m49": "792",
+        "name": {
+            "en": "Turkey",
+            "fr": "Turquie"
+        },
+        "flag": "flag-tr"
+    },
+    "795": {
+        "m49": "795",
+        "name": {
+            "en": "Turkmenistan",
+            "fr": "Turkménistan"
+        },
+        "flag": "flag-tm"
+    },
+    "796": {
+        "m49": "796",
+        "name": {
+            "en": "Turks and Caicos Islands",
+            "fr": "Îles Turques-et-Caïques"
+        },
+        "flag": "flag-tc"
+    },
+    "798": {
+        "m49": "798",
+        "name": {
+            "en": "Tuvalu",
+            "fr": "Tuvalu"
+        },
+        "flag": "flag-tv"
+    },
+    "800": {
+        "m49": "800",
+        "name": {
+            "en": "Uganda",
+            "fr": "Ouganda"
+        },
+        "flag": "flag-ug"
+    },
+    "804": {
+        "m49": "804",
+        "name": {
+            "en": "Ukraine",
+            "fr": "Ukraine"
+        },
+        "flag": "flag-ua"
+    },
+    "807": {
+        "m49": "807",
+        "name": {
+            "en": "The former Yugoslav Republic of Macedonia",
+            "fr": "Macédoine"
+        },
+        "flag": "flag-mk"
+    },
+    "818": {
+        "m49": "818",
+        "name": {
+            "en": "Egypt",
+            "fr": "Égypte"
+        },
+        "flag": "flag-eg"
+    },
+    "826": {
+        "m49": "826",
+        "name": {
+            "en": "United Kingdom of Great Britain and Northern Ireland",
+            "fr": "Royaume-Uni"
+        },
+        "flag": "flag-gb"
+    },
+    "830": {
+        "m49": "830",
+        "name": {
+            "en": "Channel Islands",
+            "fr": "Channel Islands"
+        },
+        "flag": ""
+    },
+    "831": {
+        "m49": "831",
+        "name": {
+            "en": "Guernsey",
+            "fr": "Guernesey"
+        },
+        "flag": "flag-gg"
+    },
+    "832": {
+        "m49": "832",
+        "name": {
+            "en": "Jersey",
+            "fr": "Jersey"
+        },
+        "flag": "flag-je"
+    },
+    "833": {
+        "m49": "833",
+        "name": {
+            "en": "Isle of Man",
+            "fr": "Île de Man"
+        },
+        "flag": "flag-im"
+    },
+    "834": {
+        "m49": "834",
+        "name": {
+            "en": "United Republic of Tanzania",
+            "fr": "Tanzanie"
+        },
+        "flag": "flag-tz"
+    },
+    "840": {
+        "m49": "840",
+        "name": {
+            "en": "United States of America",
+            "fr": "États-Unis"
+        },
+        "flag": "flag-us"
+    },
+    "850": {
+        "m49": "850",
+        "name": {
+            "en": "United States Virgin Islands",
+            "fr": "Îles Vierges des États-Unis"
+        },
+        "flag": "flag-vi"
+    },
+    "854": {
+        "m49": "854",
+        "name": {
+            "en": "Burkina Faso",
+            "fr": "Burkina Faso"
+        },
+        "flag": "flag-bf"
+    },
+    "858": {
+        "m49": "858",
+        "name": {
+            "en": "Uruguay",
+            "fr": "Uruguay"
+        },
+        "flag": "flag-uy"
+    },
+    "860": {
+        "m49": "860",
+        "name": {
+            "en": "Uzbekistan",
+            "fr": "Ouzbékistan"
+        },
+        "flag": "flag-uz"
+    },
+    "862": {
+        "m49": "862",
+        "name": {
+            "en": "Venezuela (Bolivarian Republic of)",
+            "fr": "Venezuela"
+        },
+        "flag": "flag-ve"
+    },
+    "876": {
+        "m49": "876",
+        "name": {
+            "en": "Wallis and Futuna Islands",
+            "fr": "Wallis-et-Futuna"
+        },
+        "flag": "flag-wf"
+    },
+    "882": {
+        "m49": "882",
+        "name": {
+            "en": "Samoa",
+            "fr": "Samoa"
+        },
+        "flag": "flag-ws"
+    },
+    "887": {
+        "m49": "887",
+        "name": {
+            "en": "Yemen",
+            "fr": "Yémen"
+        },
+        "flag": "flag-ye"
+    },
+    "889": {
+        "m49": "889",
+        "name": {
+            "en": "World Trade Organization (WTO) Member States",
+            "fr": "World Trade Organization (WTO) Member States"
+        },
+        "flag": ""
+    },
+    "891": {
+        "m49": "891",
+        "name": {
+            "en": "Serbia and Montenegro [former]",
+            "fr": "Serbia and Montenegro [former]"
+        },
+        "flag": ""
+    },
+    "894": {
+        "m49": "894",
+        "name": {
+            "en": "Zambia",
+            "fr": "Zambie"
+        },
+        "flag": "flag-zm"
+    },
+    "901": {
+        "m49": "901",
+        "name": {
+            "en": "Africa (ILO)",
+            "fr": "Africa (ILO)"
+        },
+        "flag": ""
+    },
+    "902": {
+        "m49": "902",
+        "name": {
+            "en": "Asia and the Pacific (ILO)",
+            "fr": "Asia and the Pacific (ILO)"
+        },
+        "flag": ""
+    },
+    "903": {
+        "m49": "903",
+        "name": {
+            "en": "Central and Eastern Europe (ILO)",
+            "fr": "Central and Eastern Europe (ILO)"
+        },
+        "flag": ""
+    },
+    "904": {
+        "m49": "904",
+        "name": {
+            "en": "Middle East and North Africa (ILO)",
+            "fr": "Middle East and North Africa (ILO)"
+        },
+        "flag": ""
+    },
+    "905": {
+        "m49": "905",
+        "name": {
+            "en": "Middle East (ILO)",
+            "fr": "Middle East (ILO)"
+        },
+        "flag": ""
+    },
+    "906": {
+        "m49": "906",
+        "name": {
+            "en": "North America (ILO)",
+            "fr": "North America (ILO)"
+        },
+        "flag": ""
+    },
+    "907": {
+        "m49": "907",
+        "name": {
+            "en": "Other regions (ILO)",
+            "fr": "Other regions (ILO)"
+        },
+        "flag": ""
+    },
+    "908": {
+        "m49": "908",
+        "name": {
+            "en": "Western Europe (ILO)",
+            "fr": "Western Europe (ILO)"
+        },
+        "flag": ""
+    },
+    "910": {
+        "m49": "910",
+        "name": {
+            "en": "High income economies (WB)",
+            "fr": "High income economies (WB)"
+        },
+        "flag": ""
+    },
+    "911": {
+        "m49": "911",
+        "name": {
+            "en": "Low income economies (WB)",
+            "fr": "Low income economies (WB)"
+        },
+        "flag": ""
+    },
+    "912": {
+        "m49": "912",
+        "name": {
+            "en": "Lower middle economies (WB)",
+            "fr": "Lower middle economies (WB)"
+        },
+        "flag": ""
+    },
+    "913": {
+        "m49": "913",
+        "name": {
+            "en": "Low and middle income economies (WB)",
+            "fr": "Low and middle income economies (WB)"
+        },
+        "flag": ""
+    },
+    "914": {
+        "m49": "914",
+        "name": {
+            "en": "Upper middle economies (WB)",
+            "fr": "Upper middle economies (WB)"
+        },
+        "flag": ""
+    },
+    "915": {
+        "m49": "915",
+        "name": {
+            "en": "WTO Developing Member States",
+            "fr": "WTO Developing Member States"
+        },
+        "flag": ""
+    },
+    "916": {
+        "m49": "916",
+        "name": {
+            "en": "WTO Developed Member States",
+            "fr": "WTO Developed Member States"
+        },
+        "flag": ""
+    },
+    "917": {
+        "m49": "917",
+        "name": {
+            "en": "International Centers (FAO)",
+            "fr": "International Centers (FAO)"
+        },
+        "flag": ""
+    },
+    "918": {
+        "m49": "918",
+        "name": {
+            "en": "European Union (EU) Institutions",
+            "fr": "European Union (EU) Institutions"
+        },
+        "flag": ""
+    },
+    "919": {
+        "m49": "919",
+        "name": {
+            "en": "Regional Centres (FAO)",
+            "fr": "Regional Centres (FAO)"
+        },
+        "flag": ""
+    },
+    "920": {
+        "m49": "920",
+        "name": {
+            "en": "Azores Islands",
+            "fr": "Azores Islands"
+        },
+        "flag": ""
+    },
+    "921": {
+        "m49": "921",
+        "name": {
+            "en": "ODA residual",
+            "fr": "ODA residual"
+        },
+        "flag": ""
+    },
+    "922": {
+        "m49": "922",
+        "name": {
+            "en": "Custom groupings of data providers",
+            "fr": "Custom groupings of data providers"
+        },
+        "flag": ""
+    },
+    "004": {
+        "m49": "004",
+        "name": {
+            "en": "Afghanistan",
+            "fr": "Afghanistan"
+        },
+        "flag": "flag-af"
+    },
+    "008": {
+        "m49": "008",
+        "name": {
+            "en": "Albania",
+            "fr": "Albanie"
+        },
+        "flag": "flag-al"
+    },
+    "012": {
+        "m49": "012",
+        "name": {
+            "en": "Algeria",
+            "fr": "Algérie"
+        },
+        "flag": "flag-dz"
+    },
+    "016": {
+        "m49": "016",
+        "name": {
+            "en": "American Samoa",
+            "fr": "Samoa américaines"
+        },
+        "flag": "flag-as"
+    },
+    "020": {
+        "m49": "020",
+        "name": {
+            "en": "Andorra",
+            "fr": "Andorre"
+        },
+        "flag": "flag-ad"
+    },
+    "024": {
+        "m49": "024",
+        "name": {
+            "en": "Angola",
+            "fr": "Angola"
+        },
+        "flag": "flag-ao"
+    },
+    "010": {
+        "m49": "010",
+        "name": {
+            "en": "Antarctica",
+            "fr": "Antarctique"
+        },
+        "flag": "flag-aq"
+    },
+    "028": {
+        "m49": "028",
+        "name": {
+            "en": "Antigua and Barbuda",
+            "fr": "Antigua-et-Barbuda"
+        },
+        "flag": "flag-ag"
+    },
+    "032": {
+        "m49": "032",
+        "name": {
+            "en": "Argentina",
+            "fr": "Argentine"
+        },
+        "flag": "flag-ar"
+    },
+    "051": {
+        "m49": "051",
+        "name": {
+            "en": "Armenia",
+            "fr": "Arménie"
+        },
+        "flag": "flag-am"
+    },
+    "036": {
+        "m49": "036",
+        "name": {
+            "en": "Australia",
+            "fr": "Australie"
+        },
+        "flag": "flag-au"
+    },
+    "040": {
+        "m49": "040",
+        "name": {
+            "en": "Austria",
+            "fr": "Autriche"
+        },
+        "flag": "flag-at"
+    },
+    "031": {
+        "m49": "031",
+        "name": {
+            "en": "Azerbaijan",
+            "fr": "Azerbaïdjan"
+        },
+        "flag": "flag-az"
+    },
+    "044": {
+        "m49": "044",
+        "name": {
+            "en": "Bahamas",
+            "fr": "Bahamas"
+        },
+        "flag": "flag-bs"
+    },
+    "048": {
+        "m49": "048",
+        "name": {
+            "en": "Bahrain",
+            "fr": "Bahreïn"
+        },
+        "flag": "flag-bh"
+    },
+    "050": {
+        "m49": "050",
+        "name": {
+            "en": "Bangladesh",
+            "fr": "Bangladesh"
+        },
+        "flag": "flag-bd"
+    },
+    "052": {
+        "m49": "052",
+        "name": {
+            "en": "Barbados",
+            "fr": "Barbade"
+        },
+        "flag": "flag-bb"
+    },
+    "056": {
+        "m49": "056",
+        "name": {
+            "en": "Belgium",
+            "fr": "Belgique"
+        },
+        "flag": "flag-be"
+    },
+    "084": {
+        "m49": "084",
+        "name": {
+            "en": "Belize",
+            "fr": "Belize"
+        },
+        "flag": "flag-bz"
+    },
+    "060": {
+        "m49": "060",
+        "name": {
+            "en": "Bermuda",
+            "fr": "Bermudes"
+        },
+        "flag": "flag-bm"
+    },
+    "064": {
+        "m49": "064",
+        "name": {
+            "en": "Bhutan",
+            "fr": "Bhoutan"
+        },
+        "flag": "flag-bt"
+    },
+    "068": {
+        "m49": "068",
+        "name": {
+            "en": "Bolivia (Plurinational State of)",
+            "fr": "Bolivie"
+        },
+        "flag": "flag-bo"
+    },
+    "070": {
+        "m49": "070",
+        "name": {
+            "en": "Bosnia and Herzegovina",
+            "fr": "Bosnie-Herzégovine"
+        },
+        "flag": "flag-ba"
+    },
+    "072": {
+        "m49": "072",
+        "name": {
+            "en": "Botswana",
+            "fr": "Botswana"
+        },
+        "flag": "flag-bw"
+    },
+    "074": {
+        "m49": "074",
+        "name": {
+            "en": "Bouvet Island",
+            "fr": "Île Bouvet"
+        },
+        "flag": "flag-bv"
+    },
+    "076": {
+        "m49": "076",
+        "name": {
+            "en": "Brazil",
+            "fr": "Brésil"
+        },
+        "flag": "flag-br"
+    },
+    "092": {
+        "m49": "092",
+        "name": {
+            "en": "British Virgin Islands",
+            "fr": "Îles Vierges britanniques"
+        },
+        "flag": "flag-vg"
+    },
+    "086": {
+        "m49": "086",
+        "name": {
+            "en": "British Indian Ocean Territory",
+            "fr": "Territoire britannique de l'océan Indien"
+        },
+        "flag": "flag-io"
+    },
+    "096": {
+        "m49": "096",
+        "name": {
+            "en": "Brunei Darussalam",
+            "fr": "Brunei"
+        },
+        "flag": "flag-bn"
+    },
+    "090": {
+        "m49": "090",
+        "name": {
+            "en": "Solomon Islands",
+            "fr": "Îles Salomon"
+        },
+        "flag": "flag-sb"
+    },
+    "014": {
+        "m49": "014",
+        "name": {
+            "en": "Eastern Africa",
+            "fr": "Eastern Africa"
+        },
+        "flag": ""
+    },
+    "017": {
+        "m49": "017",
+        "name": {
+            "en": "Middle Africa",
+            "fr": "Middle Africa"
+        },
+        "flag": ""
+    },
+    "018": {
+        "m49": "018",
+        "name": {
+            "en": "Southern Africa",
+            "fr": "Southern Africa"
+        },
+        "flag": ""
+    },
+    "011": {
+        "m49": "011",
+        "name": {
+            "en": "Western Africa",
+            "fr": "Western Africa"
+        },
+        "flag": ""
+    },
+    "029": {
+        "m49": "029",
+        "name": {
+            "en": "Caribbean",
+            "fr": "Caribbean"
+        },
+        "flag": ""
+    },
+    "013": {
+        "m49": "013",
+        "name": {
+            "en": "Central America",
+            "fr": "Central America"
+        },
+        "flag": ""
+    },
+    "005": {
+        "m49": "005",
+        "name": {
+            "en": "South America",
+            "fr": "South America"
+        },
+        "flag": ""
+    },
+    "015": {
+        "m49": "015",
+        "name": {
+            "en": "Northern Africa",
+            "fr": "Northern Africa"
+        },
+        "flag": ""
+    },
+    "021": {
+        "m49": "021",
+        "name": {
+            "en": "Northern America",
+            "fr": "Northern America"
+        },
+        "flag": ""
+    },
+    "002": {
+        "m49": "002",
+        "name": {
+            "en": "Africa",
+            "fr": "Africa"
+        },
+        "flag": ""
+    },
+    "019": {
+        "m49": "019",
+        "name": {
+            "en": "Americas",
+            "fr": "Americas"
+        },
+        "flag": ""
+    },
+    "001": {
+        "m49": "001",
+        "name": {
+            "en": "World",
+            "fr": "World"
+        },
+        "flag": ""
+    },
+    "030": {
+        "m49": "030",
+        "name": {
+            "en": "Eastern Asia",
+            "fr": "Eastern Asia"
+        },
+        "flag": ""
+    },
+    "035": {
+        "m49": "035",
+        "name": {
+            "en": "South-Eastern Asia",
+            "fr": "South-Eastern Asia"
+        },
+        "flag": ""
+    },
+    "034": {
+        "m49": "034",
+        "name": {
+            "en": "Southern Asia",
+            "fr": "Southern Asia"
+        },
+        "flag": ""
+    },
+    "039": {
+        "m49": "039",
+        "name": {
+            "en": "Southern Europe",
+            "fr": "Southern Europe"
+        },
+        "flag": ""
+    },
+    "053": {
+        "m49": "053",
+        "name": {
+            "en": "Australia and New Zealand",
+            "fr": "Australia and New Zealand"
+        },
+        "flag": ""
+    },
+    "054": {
+        "m49": "054",
+        "name": {
+            "en": "Melanesia",
+            "fr": "Melanesia"
+        },
+        "flag": ""
+    },
+    "057": {
+        "m49": "057",
+        "name": {
+            "en": "Micronesia",
+            "fr": "Micronesia"
+        },
+        "flag": ""
+    },
+    "061": {
+        "m49": "061",
+        "name": {
+            "en": "Polynesia",
+            "fr": "Polynesia"
+        },
+        "flag": ""
+    },
+    "009": {
+        "m49": "009",
+        "name": {
+            "en": "Oceania",
+            "fr": "Oceania"
+        },
+        "flag": ""
+    },
+    "062": {
+        "m49": "062",
+        "name": {
+            "en": "Central and Southern Asia",
+            "fr": "Central and Southern Asia"
+        },
+        "flag": ""
+    },
+    "097": {
+        "m49": "097",
+        "name": {
+            "en": "European Union",
+            "fr": "European Union"
+        },
+        "flag": ""
+    }
+}
