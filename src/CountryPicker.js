@@ -35,6 +35,8 @@ const FLAG_TYPES = {
   emoji: 'emoji'
 }
 
+const NO_FLAG = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAABHNCSVQICAgIfAhkiAAAA3dJREFUWIXtlt1P01cYxz+/UvpmdCpgN2ylvDhwvOmIDhkyEzI7XqYCixde7HJXy/6Pxex2xm0Xu1dSC103Y2MUCsyhSSsQ0KxYKI1IEQpSaH9tf2c3jk23hb5YxwXfy/Occ/I5T57nex5JCCHYxlL93wBbaQcwW217QHVGp0SM4IgD281xIrUX+arrMHqizA33YRtZwdLaTduxggwvf1mZZVDScvBEM9XFe2HCyUBQRkg6TCeaqCqpp7n+9cBBphl8IdVbdbSXTdLfN8zRL05j/HtQifB4wIF7QcduESZqbOFsSymGNFOSXQ1K+RhPnqUhPkz/6DOSmwHB+u9OeieMWLvPcb7HStFYL07fBumabvZNojlIy6c1rNz+Ce+K8mIxTmjCD6Yy9qoB9X4qzDAzGSLxxgGR0Je20l4xj+uXKdaU/9yWkV6PzUi7qLSeoXh2hLGwAuRTdMSMCEyznAASy/gCEiXvFaVd9BkCyjwZdTMxM4b7/gJxQLWnlvZWExoBIGF4t5PzVUF+vnYde+8NQrXdtJfp006ktDMsZKksAWWe3rNz5dJl7oSSW2/PQKnVrIgSGLRjuz2FXFJD+R4VSmQOv7qNL3saMA0FcwKXOqCkw9x0mmqPn8XmTrrKtYiID/f4LlRpO1suAF+VsspDT5TaxnLylbnNZbHuZ9B5l2caFcuzq5g6L/KxRY8UX+Ce4wbT6t2sT3mZUZdz/KNPOPN+4ZYA6dWgiBFwO7DZ7LjGF5Ff6X85NMl0opRTHT30NCbx/hpEBqKPXdwKVWHtOMeFjlK0hkqajm4NB+lmUNJibu6ky7LG3b6pf4S1JW18fmABn2cIv+85spxEACqNnrx4hJgiEBEZbcE+dCkaYmZdnFfAB10fcuCl5ymsPXLw/Y9DPC9uoLF63+brNYesfFYb5Po1JyPhY1zoKM8x4L8qQejBJLGKk9S9o0dKir8mF5UWvYggFVo4Ul+JMVW61AETLHqHmQxHmR25w9jSn54ns/DgPv7VZR6OPkJbV412yoXL/RtjQZlkyIsnGEWJLzH7VCIvMIz9h2/4+rub+DdS/MBEzhUX87cuiyuDiyIhhBDyvBj49pK4Oh1L6fQb+OoUYqvrRDdiKACShNCZqSxM0YKFyP2wkFjy0H/VTbjAwtuGfPbXnOL4IUNK9bUzzWSrbQ/4Bx2D4J45lpg2AAAAAElFTkSuQmCC';
+
 const setCountries = flagType => {
   //if (typeof flagType !== 'undefined') {
     //isEmojiable = flagType === FLAG_TYPES.emoji
@@ -105,12 +107,19 @@ export default class CountryPicker extends Component {
   }
 
   static renderImageFlag(m49, imageStyle) {
-    return m49 !== '' ? (
-      <Image
-        style={[styles.imgStyle, imageStyle]}
-        source={{ uri: countries[m49].flag }}
-      />
-    ) : null
+    if (m49 !== '') {
+      let flag = countries[m49].flag;
+      if (flag === '') {
+        flag = NO_FLAG;
+      }
+      return (
+        <Image
+          style={[styles.imgStyle, imageStyle]}
+          source={{ uri: flag }}
+        />
+      );
+    }
+    return null;
   }
 
   static renderFlag(m49, itemStyle, emojiStyle, imageStyle) {
