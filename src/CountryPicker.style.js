@@ -49,15 +49,15 @@ export default StyleSheet.create({
   },
   itemCountry: {
     flexDirection: 'row',
-    height: getHeightPercent(7),
+    height: getHeightPercent(5),
     justifyContent: 'flex-start',
     alignItems: 'center'
   },
   itemCountryFlag: {
     justifyContent: 'center',
     alignItems: 'center',
-    height: '7%',
-    width: '15%'
+    height: '8%',
+    width: '16%'
   },
   itemCountryName: {
     justifyContent: 'center',

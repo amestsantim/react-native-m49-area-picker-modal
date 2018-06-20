@@ -27,7 +27,8 @@ let countries = null
 let Emoji = null
 let styles = {}
 
-let isEmojiable = Platform.OS === 'ios'
+//let isEmojiable = Platform.OS === 'ios'
+let isEmojiable = false
 
 const FLAG_TYPES = {
   flat: 'flat',
@@ -35,15 +36,16 @@ const FLAG_TYPES = {
 }
 
 const setCountries = flagType => {
-  if (typeof flagType !== 'undefined') {
-    isEmojiable = flagType === FLAG_TYPES.emoji
-  }
+  //if (typeof flagType !== 'undefined') {
+    //isEmojiable = flagType === FLAG_TYPES.emoji
+  //}
 
   if (isEmojiable) {
-    countries = require('../data/countries-emoji')
-    Emoji = require('./emoji').default
+    //countries = require('../data/countries-emoji')
+    //Emoji = require('./emoji').default
   } else {
     countries = require('../data/countries')
+
     Emoji = <View />
   }
 }
@@ -245,6 +247,10 @@ export default class CountryPicker extends Component {
         {}
       )
     ).sort()
+  }
+
+  m49ToName(m49, locale) {
+    return countries[m49].name[locale];
   }
 
   openModal = this.openModal.bind(this)

@@ -1,6 +1,6 @@
 {
   "name": "react-native-un-code-area-picker-modal",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "M49 Area Picker",
   "main": "src/CountryPicker.js",
   "repository": {
