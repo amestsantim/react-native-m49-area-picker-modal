@@ -1,8 +1,7 @@
-[**Support me with a Follow**](https://github.com/amestsantim/followers)
-
 # react-native-m49-area-picker-modal
 
-The area picker for apps that need to use the UN defined areas in their apps.
+The area picker for apps that need to use the UN defined areas (https://en.wikipedia.org/wiki/UN_M.49) in their apps.
+This components was created by forking https://github.com/xcarpentier/react-native-country-picker-modal but has since been modified a bit.
 
 ## Installation
 ```bash
@@ -24,55 +23,35 @@ $ react-native init myproject
 - Then, edit `myproject/index.ios.js`, like this:
 
 ```jsx
-import DeviceInfo from 'react-native-device-info';
-
 import React, {
   AppRegistry,
   Component,
   StyleSheet,
   Text,
   View,
-  StatusBarIOS,
-  PixelRatio
 } from 'react-native';
-import CountryPicker, {getAllCountries} from 'react-native-country-picker-modal';
-
-const NORTH_AMERICA = ['CA', 'MX', 'US'];
+import CountryPicker from 'react-native-un-code-area-picker-modal';
 
 class Example extends Component {
   constructor(props){
-    StatusBarIOS.setHidden(true);
     super(props);
-    let userLocaleCountryCode = DeviceInfo.getDeviceCountry();
-    const userCountryData = getAllCountries()
-      .filter((country) => NORTH_AMERICA.includes(country.cca2))
-      .filter((country) => country.cca2 === userLocaleCountryCode).pop();
-    let callingCode = null;
-    let cca2 = userLocaleCountryCode;
-    if (!cca2 || !userCountryData) {
-      cca2 = 'US';
-      callingCode = '1';
-    } else {
-      callingCode = userCountryData.callingCode;
-    }
     this.state = {
-      cca2,
-      callingCode
+      m49,
+      country
     };
   }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to Country Picker !
+          Welcome to UN code area picker !
         </Text>
         <CountryPicker
-          countryList={NORTH_AMERICA}
           onChange={(value)=> {
-            this.setState({cca2: value.cca2, callingCode: value.callingCode});
+            this.setState({m49: value.m49, country: value.name});
           }}
-          cca2={this.state.cca2}
-          translation='eng'
+          m49={this.state.m49}
+          translation='en'
         />
         <Text style={styles.instructions}>
           press on the flag
@@ -121,15 +100,15 @@ AppRegistry.registerComponent('example', () => Example);
 
 | Key | Type | Default | Description |
 | --- | --- | --- | --- |
-| m49 | string | \*required | code ISO 3166-1 alpha-2 (ie. FR, US, etc.)|
-| translation | string | 'eng' | The language display for the name of the country (en, fr) |
+| m49 | string | \*required | M.49 area codes (ie. 001, 213, etc.)|
+| translation | string | 'en' | The language display for the name of the country (en, fr) |
 | onChange | function | \*required | The handler when a country is selected |
 | onClose | function | \*required | The handler when the close button is clicked |
-| countryList | array | See [cca2.json](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/data/cca2.json)| List of custom CCA2 countries to render in the list.  Use getAllCountries to filter what you need if you want to pass in a custom list |
-| excludeCountries | array | [] | List of custom CCA2 countries you don't want to render |
+| countryList | array | See [m49.json](https://github.com/amestsantim/react-native-un-code-area-picker-modal/blob/master/data/m49.json)| List of custom M49 areas to render in the list. |
+| excludeCountries | array | [] | List of custom M49 areas you don't want to render |
 | closeable | bool | false | If true, the CountryPicker will have a close button |
 | filterable | bool | false | If true, the CountryPicker will have search bar |
-| filterPlaceholder | string | 'Filter' | The search bar placeholder |
+| filterPlaceholder | string | 'Filter' | The search bar placeholder text |
 | autoFocusFilter | bool | true | Whether or not the search bar should be autofocused |
 | styles | object | {} | Override any style specified in the component (see source code)|
 | disabled | bool | false | Whether or not the Country Picker onPress is disabled
@@ -144,11 +123,11 @@ YES
 YES : It used the world-countries package and image is stored into json and base64.
 
 ## Apps using this component
-
+SDG app found in Google Play and Apple App Store
 
 ## Questions
 
-Feel free to [contact me](mailto:nahomt@amestsantim.com) or [create an issue](https://github.com/amestsantim/react-native-m49-area-picker-modal/issues/new)
+Feel free to [contact me](mailto:nahomt@amestsantim.com) or [create an issue](https://github.com/amestsantim/react-native-un-code-area-picker-modal/issues/new)
 
 ## Licence
-[MIT](https://github.com/amestsantim/react-native-m49-area-picker-modal/blob/master/LICENSE.md)
+[MIT](https://github.com/amestsantim/react-native-un-code-area-picker-modal/blob/master/LICENSE.md)
